@@ -22,7 +22,7 @@ public class ScondActivity extends BasicActivity {
 
         db = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        //editing this line
+        //editing this line  ..
         db.loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,7 +39,7 @@ public class ScondActivity extends BasicActivity {
 
         user = new Users();
         user.Username = "Ahmed Barakat";
-        user.Password = "Passeword";
+        user.Password = "Password";
 
         db.setUser(user);
 
