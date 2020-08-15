@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import ps.gedco.firstteam.activities.BasicActivity;
 import ps.gedco.firstteam.activities.ScondActivity;
+import ps.gedco.firstteam.activities.UsersActivity;
 import ps.gedco.firstteam.models.Users;
 
 public class MainActivity extends BasicActivity {
@@ -56,7 +57,7 @@ public class MainActivity extends BasicActivity {
             public void onClick(View view) {
 
                 //move to other activity
-                Intent intent = new Intent(getCurrentActivity(), ScondActivity.class);
+                Intent intent = new Intent(getCurrentActivity(), UsersActivity.class);
                 startActivity(intent);
 
                 //remove this from stack
@@ -67,13 +68,13 @@ public class MainActivity extends BasicActivity {
         });
 
 
-        new Handler().postDelayed(new Runnable() {
+       /* new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent intent = new Intent(getCurrentActivity(), ScondActivity.class);
                 startActivity(intent);
             }
-        },3000);
+        },3000);*/
     }
 
 

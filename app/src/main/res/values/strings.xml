@@ -10,4 +10,8 @@
     <string name="donot_having_account">Do\'t having an account</string>
     <string name="toast_message">Toast message</string>
     <string name="hi_there">Hi there</string>
+    <string name="user_data">User data</string>
+    <string name="Save">Save</string>
+    <string name="Reset">Reset</string>
+    <string name="Delete">Delete</string>
 </resources>
