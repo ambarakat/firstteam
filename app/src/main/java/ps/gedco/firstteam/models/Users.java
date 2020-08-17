@@ -6,6 +6,7 @@ import com.orm.dsl.Unique;
 
 public class Users extends SugarRecord {
 
+
     @Unique
     public int No;
     @NotNull

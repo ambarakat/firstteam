@@ -27,6 +27,7 @@
 
         <activity android:name=".activities.ScondActivity"/>
         <activity android:name=".activities.UsersActivity"/>
+        <activity android:name=".activities.UsersListActivity"/>
     </application>
 
 </manifest>

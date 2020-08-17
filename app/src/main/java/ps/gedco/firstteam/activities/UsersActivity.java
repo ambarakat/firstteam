@@ -58,7 +58,7 @@ public class UsersActivity extends BasicActivity {
                         printLog(userObj.Username);
                     } else {
 
-                        user.delete();
+                        userObj.delete();
                     }
                 }
             }
