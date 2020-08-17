@@ -84,6 +84,7 @@ public class MainActivity extends BasicActivity {
                 dialog = ProgressDialog.show(getCurrentActivity(), "",
                         "Loading. Please wait...", true);
 
+                //forth step calling
                 new HubService().getWeather("London,uk", new APICallback() {
                     @Override
                     public void onCallBack(Object o) {
