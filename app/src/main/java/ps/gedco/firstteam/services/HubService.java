@@ -12,12 +12,15 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+
+//third step
 public class HubService {
 
     private final HusInterface service;
 
     public HubService(){
 
+        //third step , 1 step
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(AppConstants.AppAPIUrl)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -26,6 +29,7 @@ public class HubService {
          service = retrofit.create(HusInterface.class);
     }
 
+    //third step , 2 step
     public void getWeather(String city, final APICallback callback){
 
         Call<WeatherData> rs = service.getWeather(city, AppConstants.WeatherAppid);
